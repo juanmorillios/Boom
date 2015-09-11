@@ -77,11 +77,9 @@
 		B90C69431BA3122E00192C7D /* Boom */ = {
 			isa = PBXGroup;
 			children = (
-				B90C69461BA3122E00192C7D /* AppDelegate.swift */,
 				B90C69481BA3122E00192C7D /* ViewController.swift */,
 				B90C694A1BA3122E00192C7D /* Main.storyboard */,
 				B90C694D1BA3122E00192C7D /* Images.xcassets */,
-				B90C694F1BA3122E00192C7D /* LaunchScreen.xib */,
 				B90C69441BA3122E00192C7D /* Supporting Files */,
 			);
 			path = Boom;
@@ -90,6 +88,8 @@
 		B90C69441BA3122E00192C7D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B90C69461BA3122E00192C7D /* AppDelegate.swift */,
+				B90C694F1BA3122E00192C7D /* LaunchScreen.xib */,
 				B90C69451BA3122E00192C7D /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -343,6 +343,7 @@
 				INFOPLIST_FILE = Boom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -353,6 +354,7 @@
 				INFOPLIST_FILE = Boom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
