@@ -13,6 +13,7 @@
 		B90C694E1BA3122E00192C7D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B90C694D1BA3122E00192C7D /* Images.xcassets */; };
 		B90C69511BA3122E00192C7D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B90C694F1BA3122E00192C7D /* LaunchScreen.xib */; };
 		B90C695D1BA3122E00192C7D /* BoomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90C695C1BA3122E00192C7D /* BoomTests.swift */; };
+		B90C69691BA317E500192C7D /* Boombg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B90C69681BA317E500192C7D /* Boombg.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		B90C69561BA3122E00192C7D /* BoomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B90C695B1BA3122E00192C7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B90C695C1BA3122E00192C7D /* BoomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoomTests.swift; sourceTree = "<group>"; };
+		B90C69681BA317E500192C7D /* Boombg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Boombg.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				B90C69481BA3122E00192C7D /* ViewController.swift */,
 				B90C694A1BA3122E00192C7D /* Main.storyboard */,
 				B90C694D1BA3122E00192C7D /* Images.xcassets */,
+				B90C69681BA317E500192C7D /* Boombg.jpg */,
 				B90C69441BA3122E00192C7D /* Supporting Files */,
 			);
 			path = Boom;
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B90C694C1BA3122E00192C7D /* Main.storyboard in Resources */,
+				B90C69691BA317E500192C7D /* Boombg.jpg in Resources */,
 				B90C69511BA3122E00192C7D /* LaunchScreen.xib in Resources */,
 				B90C694E1BA3122E00192C7D /* Images.xcassets in Resources */,
 			);
@@ -411,6 +415,7 @@
 				B90C69621BA3122E00192C7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B90C69631BA3122E00192C7D /* Build configuration list for PBXNativeTarget "BoomTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				B90C69651BA3122E00192C7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -15,12 +15,60 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Boombg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="iEl-Nc-0Vt" userLabel="Boombg">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="715"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="boombred" translatesAutoresizingMaskIntoConstraints="NO" id="dQ0-jU-XbO" userLabel="imgRedBoom">
+                                <rect key="frame" x="198" y="169" width="177" height="188"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="boomblack" translatesAutoresizingMaskIntoConstraints="NO" id="nIa-nT-4F7" userLabel="imgBlackBoom">
+                                <rect key="frame" x="11" y="169" width="182" height="188"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Boom" translatesAutoresizingMaskIntoConstraints="NO" id="Jeb-u3-xeg" userLabel="boomLogo">
+                                <rect key="frame" x="-6" y="0.0" width="407" height="179"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I9o-BE-5mj" userLabel="RedBoom">
+                                <rect key="frame" x="133" y="442" width="109" height="30"/>
+                                <state key="normal" title="Hide Red Boom">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pressBtnHideBlueButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="vy5-Or-VC3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MzF-wE-rh1" userLabel="BlackBoom">
+                                <rect key="frame" x="131" y="388" width="120" height="30"/>
+                                <state key="normal" title="Hide Black Boom">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pressBtnHideBlackButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="aPP-ZD-Wjl"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="btnHideBlackButton" destination="MzF-wE-rh1" id="cxo-Lp-wyz"/>
+                        <outlet property="hideBlackButton" destination="MzF-wE-rh1" id="Ii6-th-hgY"/>
+                        <outlet property="hideRedButton" destination="I9o-BE-5mj" id="MHQ-vM-ROT"/>
+                        <outlet property="imgBlackBoom" destination="nIa-nT-4F7" id="0VU-oT-Bry"/>
+                        <outlet property="imgBoomBg" destination="iEl-Nc-0Vt" id="p9b-An-Piu"/>
+                        <outlet property="imgBoomLogo" destination="Jeb-u3-xeg" id="Yev-lE-F5P"/>
+                        <outlet property="imgRedBoom" destination="dQ0-jU-XbO" id="isr-lQ-gBC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="257.5" y="321.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Boom" width="433" height="83"/>
+        <image name="Boombg.jpg" width="1667" height="1667"/>
+        <image name="boomblack" width="256" height="256"/>
+        <image name="boombred" width="256" height="256"/>
+    </resources>
 </document>

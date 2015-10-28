@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F0A2F916-8C1A-462F-A122-FD2A52831093</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Boom</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DDB568C5DCC8DFDF737C622E7D77F7087DB2253E</key>
+		<string>https://github.com/juanmorillios/Boom.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Boom.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DDB568C5DCC8DFDF737C622E7D77F7087DB2253E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/juanmorillios/Boom.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DDB568C5DCC8DFDF737C622E7D77F7087DB2253E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DDB568C5DCC8DFDF737C622E7D77F7087DB2253E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Boom</string>
+		</dict>
+	</array>
+</dict>
+</plist>
